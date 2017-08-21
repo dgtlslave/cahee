@@ -10,25 +10,45 @@ body{
 
 
 /* Layout */
-.ba-container{
+.ba-container {
 	padding-left: 20px;
 	padding-right: 20px;
 	max-width: 1500px;
 }
-.ba-wrap	{
+.ba-header__wrap	{
 	padding-left: 15px;
 	padding-right: 15px;
 	max-width: 1200px;
+	margin: 0 auto;
 }
 
 /* Header */
 .ba-header {
-	background: #faf8fb url(../img/bg-header.jpg) left top no-repeat;
+	background: #faf8fb url(../img/bg-header.jpg) center top no-repeat;
 	/*background-size: cover;*/
 	min-height: 1000px;
 	position: relative;
 }
-
+.ba-header__row {
+	padding-top: 50px;
+}
+.ba-header__menu {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.ba-header__item {
+  padding-left: 37.5px;
+}
+.ba-header__link {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	color: #212121;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+}
 
 
 
