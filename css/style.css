@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,700,800');*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,700,800');
 
 /*font-family: 'Pacifico', cursive;
 font-family: 'Raleway', sans-serif;*/
@@ -13,20 +13,20 @@ body{
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
-	max-width: 1540px;
+	max-width: 1500px;
 }
 .ba-wrap	{
 	padding-left: 15px;
 	padding-right: 15px;
-	max-width: 1205px;
+	max-width: 1200px;
 }
 
 /* Header */
 .ba-header {
-	background: #faf8fb url(../img/bg-header.jpg) center no-repeat;
-	background-size: cover;
-	min-height: 100vh;
-
+	background: #faf8fb url(../img/bg-header.jpg) left top no-repeat;
+	/*background-size: cover;*/
+	min-height: 1000px;
+	position: relative;
 }
 
 
