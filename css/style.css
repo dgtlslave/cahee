@@ -118,18 +118,10 @@ body{
 	background-color: #27b3b1;
 	min-height: 700px;
 }
-.img-container {
-	position: relative;
-}
-/*.plate {
-	position: absolute;
-	left: -120px;
-	top: -10px;
-}*/
 .section__title {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 67px;
+	font-size: 90px;
 	font-weight: 700;
 	line-height: 27px;
 }
@@ -140,6 +132,19 @@ body{
 	font-weight: 300;
 	line-height: 27px;
 }
+.plate {
+	padding: 73px 0 0 10px;
+}
+.text-container {
+	margin: 202px 0 0 76px;
+}
+.text-container__box {
+	
+}
+.section__text {
+	padding-top: 10px;
+}
+
 
 
 
