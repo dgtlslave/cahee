@@ -114,7 +114,7 @@ body{
 
 /* Section cup */
 
-.section__wrap {
+.section__wrap--bg-plate {
 	background-color: #27b3b1;
 	min-height: 700px;
 }
@@ -139,20 +139,193 @@ body{
 	margin: 202px 0 0 76px;
 }
 .text-container__box {
-	
+	margin-top: -38px;
+}
+.section__text--margin-botton {
+	margin-bottom: -17px;
 }
 .section__text {
 	padding-top: 10px;
 }
 
+/* Section Tomato */
 
+.section__wrap--bg-tomato {
+	background-color: #70bfff;
+	min-height: 790px;
+}
+.menu-box__menu {
+	list-style: none;
+}
+.menu-box__item--shadow {
+	width: 400px;
+	height: 100px;
+	box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+}
+.menu-box__item--shadow:hover {
+	box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.8);
+}
+.menu-box__item--shadow:hover .menu-box__link {
+	font-size: 22px;
+	transition: all 0.1s ease-out 0.1s;
+}
+.menu-box__link {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	color: #262626;
+	font-size: 20px;
+	font-weight: 700;
+  text-decoration: none;
+	width: 300px;
+	height: 100px;
+	background-color: #fff;
+	padding-top: 35px;
+	overflow: hidden;
+}
+.menu-box__icon {
+	display: inline-block;
+	min-width: 100px;
+	line-height: 100px;
+	background-color: #fff;
+	border-left: 2px solid #9d9d9d;
+}
+.menu-box__icon--align {
+	vertical-align: middle;
+}
+.menu-box__icon--padding-left {
+	margin-left: -4px;
+	vertical-align: top;
+}
+.menu-box {
+	margin-top: 180px;
+	margin-left: 60px;
+}
+.tomato-container {
+	margin-top: 105px;
+	margin-left: 115px;
+}
+.ba-width-1-2--position {
+	position: relative;
+}
+.title-box {
+	position: absolute;
+	left: 49px;
+  bottom: 178px;
+}
 
+/* Gallery section START */
 
+/* -- START bg-layuot --*/
 
+.section__wrap--bg-gallery {
+	background-color: #ffe92f;
+	min-height: 1536px;
+}
 
+/* -- END bg-layuot --*/
 
+/* -- START gallery-box --*/
 
+.gallery-box__title--style {
+	color: #262626;
+}
+.gallery-box__text--style {
+	display: inline-block;
+	color: #262626;
+	max-width: 580px;
+	text-align: center;
+}
+.gallery-box {
+	min-width: 700px;
+	text-align: center;
+	padding-top: 45px;
+}
+.gallery-box__text {
+	margin-top: -40px;
+}
 
+/* -- END gallery-box --*/
+
+/* -- START photo-box --*/
+
+.photo-box--first-line {
+	margin-bottom: 30px;
+}
+.photo-box {
+	margin-top: 5px;
+}
+.photo-box__bigest {
+	float: left;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.photo-box__little-1 {
+ 	float: left;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.photo-box__little-2 {
+	float: left;
+	margin-left: 30px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.photo-box--second-line {
+}
+.photo-box__middle-1 {
+	float: left;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.photo-box__middle-2 {
+	float: left;
+	margin-left: 30px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* -- END photo-box --*/
+
+/* -- START button-box --*/
+
+.button-box__link {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	background-color: #5585a2;
+	border: 1px solid #5585a2;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 55px;
+	text-decoration: none;
+	text-transform: uppercase;
+	min-width: 200px;.
+	min-height: 55px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+	background-color: #5585a2;
+	text-align: center;
+}
+.button-box__link:hover{
+	color: #5585a2;
+	background-color: #fff;
+	border: 1px solid #5585a2;
+}
+.button-box {
+	width: 200px;
+	margin: 30px auto 0;
+}
+
+/* -- START button-box --*/
+
+/* Gallery section END */
+
+/* Subscribe section START */
+
+.section__wrap--bg-bluberry {
+	background: #fff url(../img/bluberry-bg.jpg) center  no-repeat;
+	background-size: cover;
+	min-height: 500px;
+}
+
+/* Subscribe section END */
 
 
 
